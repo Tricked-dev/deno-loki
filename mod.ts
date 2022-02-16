@@ -86,9 +86,9 @@ export class LokiLogger {
 		return this.log('WARN', text, meta);
 	}
 	public error(text: string, meta?: Record<string, string>) {
-		return this.log('WARN', text, meta);
+		return this.log('ERROR', text, meta);
 	}
 	public debug(text: string, meta?: Record<string, string>) {
-		return this.log('WARN', text, meta);
+		return this.log('DEBUG', text, meta);
 	}
 }
