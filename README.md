@@ -1,6 +1,11 @@
 # Deno-Loki
 
+
+
 a simple to use [Loki](https://grafana.com/oss/loki/) logger for deno
+
+
+Please feel free to use the code in this project for your own projects this is more a example than anything useful
 
 ```ts
 import { LokiLogger } from 'https://deno.land/x/loki/mod.ts';
